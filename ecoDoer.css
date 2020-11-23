@@ -167,8 +167,9 @@ header {
     background-position: center;
     height: 95vh;
     background-attachment: fixed;
-    width: auto;
+
 }
+
 
 .first-page-box {
     position: absolute;
@@ -185,6 +186,32 @@ header {
     width: 240px;
     float: left;
     margin-right: 20vh;
+}
+
+
+@media only screen and (max-width: 860px) {
+    .logo {
+        height: 50px;
+        width: 200px;
+        float: left;
+        margin-right: 15vh;
+    }
+}
+@media only screen and (max-width: 780px) {
+    .logo {
+        height: 50px;
+        width: 180px;
+        float: right;
+        margin-right: 5vh;
+    }
+}
+@media only screen and (max-width: 380px) {
+.logo {
+    height: 40px;
+    width: 150px;
+    float: right;
+    margin-right: 5vh;
+}
 }
 
 .logo-black {
@@ -208,6 +235,8 @@ header {
     z-index: 1;
 
 }
+
+
 
 .main-nav li {
     display: block;
@@ -697,7 +726,7 @@ footer p {
         display: block;
         border: 0;
         padding: 10px 0;
-        font-size: 100%;
+        font-size: 90%;
     }
 
     .sticky .main-nav { margin-top: 10px; }
@@ -737,5 +766,13 @@ footer p {
 @media (max-width: 952px) {
     .first-page-box { /*It would not show <section> with Confucious on mobile phone. To ban it for mobile phones*/
         display: none;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .main-nav li a:link,
+    .main-nav li a:visited {
+
+        padding: 10px 0;
+        font-size: 80%;
     }
 }
