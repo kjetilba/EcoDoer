@@ -167,6 +167,7 @@ header {
     background-position: center;
     height: 95vh;
     background-attachment: fixed;
+    width: 100%;
 }
 
 .first-page-box {
