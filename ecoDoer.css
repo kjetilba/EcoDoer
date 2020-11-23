@@ -165,7 +165,7 @@ header {
     background-image: url(img/MainHeader.jpg);/*source Adobe Stock*/
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 95vh;
     background-attachment: fixed;
 }
 
@@ -180,10 +180,10 @@ header {
 }
 
 .logo {
-    height: 100px;
-    width: auto;
+    height: 70px;
+    width: 240px;
     float: left;
-    margin-top: 20%;
+    margin-right: 20vh;
 }
 
 .logo-black {
@@ -202,16 +202,17 @@ header {
     overflow: hidden;
     position: fixed;
     background-color: rgb(217, 196, 184);
-    padding: 2%;
+    padding: 1%;
     top: 0;
-    z-index: inherit;
+    z-index: 1;
 
 }
 
 .main-nav li {
     display: block;
     float: right;
-    margin-left: 10%;
+    margin-right: 2vw;
+    margin-left: 2vw;
 
 }
 
@@ -682,8 +683,8 @@ footer p {
 
     .main-nav {
         float: left;
-        margin-top: 30px;
-        margin-left: 25px;
+        /*margin-top: 30px;*/
+        /*margin-left: 25px;*/
     }
 
     .main-nav li {
