@@ -27,8 +27,7 @@ body {
 
 .row {
     /*max-width: 1140px;*/
-    margin: 0 auto;
-    /* for centering the row: top/buttom = auto, left/right = 0 */
+    margin: 0 auto;                      /* for centering the row: top/button = auto, left/right = 0 */
 }
 
 section {
@@ -50,8 +49,8 @@ h3 {
 h1 {
     margin-top: 0;
     margin-bottom: 20px;
-    color: #000000;
-    font-size: 240%;
+    color: black;
+    font-size: 150%;
     word-spacing: 4px;
     letter-spacing: 1px;
 }
@@ -168,8 +167,8 @@ header {
     background-position: center;
     height: 95vh;
     background-attachment: fixed;
-    width: 100%;
 }
+
 
 .first-page-box {
     position: absolute;
@@ -186,7 +185,32 @@ header {
     width: 240px;
     float: left;
     margin-right: 20vh;
+}
 
+
+@media only screen and (max-width: 860px) {
+    .logo {
+        height: 50px;
+        width: 200px;
+        float: left;
+        margin-right: 15vh;
+    }
+}
+@media only screen and (max-width: 780px) {
+    .logo {
+        height: 50px;
+        width: 180px;
+        float: right;
+        margin-right: 5vh;
+    }
+}
+@media only screen and (max-width: 380px) {
+.logo {
+    height: 40px;
+    width: 150px;
+    float: right;
+    margin-right: 5vh;
+}
 }
 
 .logo-black {
@@ -207,8 +231,12 @@ header {
     background-color: rgb(217, 196, 184);
     padding: 1%;
     top: 0;
-    z-index: 99;
+    z-index: 1;
 
+}
+
+#logo{
+    float: left;
 }
 
 .main-nav li {
@@ -216,13 +244,7 @@ header {
     float: right;
     margin-right: 2vw;
     margin-left: 2vw;
-    /*border: 1px solid;*/
-    /*font-size: 2vw;*/
-
 }
-
-
-
 
 .main-nav li a:link,
 .main-nav li a:visited {
@@ -278,7 +300,7 @@ header {
 .sticky .logo { display: none; }
 .sticky .logo-black { display: block; }
 
-/* -------------------------------------------------DONATE SECTION ---------------------------------------------------*/
+/* -------------------------------------------------ABOUT ECODOER SECTION ---------------------------------------------------*/
 #ecodoerDesc {
     width: 70%;
     margin-left: 20px;
@@ -395,7 +417,7 @@ header {
 /* -----------------------------------------------REVIEWS -------------------------------------------------------*/
 
 .section-testimonials {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)););
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
     background-size: cover;
     color: #fff;
@@ -642,15 +664,6 @@ footer p {
         padding: 0 2%;
     }
 
-    #ecodoerRow {
-        width: 90%;
-    }
-
-    .appImg {
-        width: 180px;
-        height: 410px;
-    }
-
     .row { padding: 0 2%; }
 }
 
@@ -679,42 +692,12 @@ footer p {
     }
 
     .contact-form { width: 80%; }
-
-    .appImg {
-        width: 170px;
-        height: 390px;
-    }
-
-}
-
-@media only screen and (max-width: 900px) {
-    #ecodoerDesc {
-        width: 90%;
-    }
-
-    #ecodoerRow {
-        width: 100%;
-        flex-direction: column-reverse;
-    }
-
-    #ecodoerPictures {
-        flex-direction: column;
-    }
-
-    .appImg {
-        width: 210px;
-        height: 470px;
-        margin-bottom: 20px;
-    }
-
-
 }
 
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px) {
     body { font-size: 16px; }
     section { padding: 30px 0; }
-
 
     .row,
     .first-page-box { padding: 0 4%; }
@@ -742,7 +725,7 @@ footer p {
         display: block;
         border: 0;
         padding: 10px 0;
-        font-size: 100%;
+        font-size: 90%;
     }
 
     .sticky .main-nav { margin-top: 10px; }
@@ -772,31 +755,23 @@ footer p {
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
     section { padding: 25px 0; }
-
     .contact-form {width: 100%; }
+}
 
-    .small label{
-        width:20% !important;
-    }
-
-    #ecodoerDesc {
-        font-size: 13px;
-    }
-
-    .appImg {
-        width: 180px;
-        height: 380px;
-    }
-
-    #login {
-        width: 190px;
-        height: 360px;
-    }
-
+.small label{
+    width:20% !important;
 }
 
 @media (max-width: 952px) {
     .first-page-box { /*It would not show <section> with Confucious on mobile phone. To ban it for mobile phones*/
         display: none;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .main-nav li a:link,
+    .main-nav li a:visited {
+
+        padding: 10px 0;
+        font-size: 80%;
     }
 }
