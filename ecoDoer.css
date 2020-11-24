@@ -301,6 +301,7 @@ header {
 .sticky .logo-black { display: block; }
 
 /* -------------------------------------------------ABOUT ECODOER SECTION ---------------------------------------------------*/
+
 #ecodoerDesc {
     width: 70%;
     margin-left: 20px;
@@ -664,7 +665,18 @@ footer p {
         padding: 0 2%;
     }
 
-    .row { padding: 0 2%; }
+    #ecodoerRow {
+    width: 90%;
+    }
+
+    .appImg {
+    width: 180px;
+    height: 410px;
+    }
+
+    .row { 
+    padding: 0 2%; 
+    }
 }
 
 /* Small tablet to big tablet: from 768px to 1023px */
@@ -691,7 +703,38 @@ footer p {
         margin-left: 0%;
     }
 
-    .contact-form { width: 80%; }
+    .contact-form { 
+        width: 80%; 
+    }
+    
+    .appImg {
+        width: 170px;
+        height: 390px;
+    }
+    
+}
+
+@media only screen and (max-width: 900px) {
+    #ecodoerDesc {
+        width: 90%;
+    }
+
+    #ecodoerRow {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    #ecodoerPictures {
+        flex-direction: column;
+    }
+
+    .appImg {
+        width: 210px;
+        height: 470px;
+        margin-bottom: 20px;
+    }
+
+
 }
 
 /* Small phones to small tablets: from 481px to 767px */
@@ -756,10 +799,25 @@ footer p {
 @media only screen and (max-width: 480px) {
     section { padding: 25px 0; }
     .contact-form {width: 100%; }
-}
 
-.small label{
-    width:20% !important;
+    .small label{
+        width:20% !important;
+        }
+        
+        #ecodoerDesc {
+            font-size: 13px;
+        }
+    
+        .appImg {
+            width: 180px;
+            height: 380px;
+        }
+    
+        #login {
+            width: 190px;
+            height: 360px;
+        }
+        
 }
 
 @media (max-width: 952px) {
