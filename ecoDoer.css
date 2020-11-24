@@ -167,7 +167,6 @@ header {
     background-position: center;
     height: 95vh;
     background-attachment: fixed;
-
 }
 
 
@@ -236,14 +235,15 @@ header {
 
 }
 
-
+#logo{
+    float: left;
+}
 
 .main-nav li {
     display: block;
     float: right;
     margin-right: 2vw;
     margin-left: 2vw;
-
 }
 
 .main-nav li a:link,
