@@ -163,7 +163,12 @@ header {
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/MainHeader.png);
     /*background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/firstOption.jpg);*/
     background-image: url(img/MainHeader.png);/*source Adobe Stock*/
+    
+    background: url("images/backgroundimage.jpg");     background-repeat: no-repeat;     background-attachment: fixed;     -o-background-size: cover;     -moz-background-size: cover;     -webkit-background-size: cover;
+    
+    -webkit-background-size: cover;
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     height: 95vh;
     background-attachment: fixed;
