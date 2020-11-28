@@ -44,6 +44,7 @@ h2,
 h3 {
     font-weight: 300;
     text-transform: uppercase;
+    padding: 5 px;
 }
 
 h1 {
@@ -160,15 +161,12 @@ input[type=submit]:active {
 /* HEADER */
 
 header {
-    /*background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/MainHeader.png);*/
-    /*background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/firstOption.jpg);*/
-    background-image: url(img/MainHeader.jpeg); /*source Adobe Stock*/
-    
-    background: url("images/backgroundimage.jpg");     background-repeat: no-repeat;     background-attachment: fixed;     -o-background-size: cover;     -moz-background-size: cover;     -webkit-background-size: cover;
-    
+    /*background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/MainHeader.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/MainHeader.png);*/
+    background-image: url(img/MainHeader.png); /*source Adobe Stock*/
     -webkit-background-size: cover;
+    
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
     height: 95vh;
     background-attachment: fixed;
@@ -403,7 +401,7 @@ header {
 }
 
 
-/* -----------------------------------------PARTNERS --------------------------------------------------------*/
+/* -----------------------------------------PARTNERS --------------------------------------------------------
 
 .box img {
     width: 100%;
@@ -420,7 +418,7 @@ header {
     font-size: 24px;
 }
 
-/* -----------------------------------------------REVIEWS -------------------------------------------------------*/
+-----------------------------------------------REVIEWS -------------------------------------------------------
 
 .section-testimonials {
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)););
@@ -459,7 +457,7 @@ cite img {
     margin-right: 10px;
     vertical-align: middle;
 }
-
+*/
 /* --------------------------------------CONTACT US----------------------------------------------------------------- */
 .contact-form {
     width: 60%;
@@ -489,7 +487,7 @@ input[type=checkbox] {
 /* ----------------------------------------------FOOTER ------------------------------------------------*/
 
 footer {
-    background-color:skyblue;
+    background-color: rgb(68, 89, 62);
     padding: 50px;
     font-size: 80%;
 }
@@ -538,7 +536,7 @@ footer {
 .footer-nav li a:active {
     color: #ddd;
 }
-
+/*
 .social-links li a:link,
 .social-links li a:visited {
     font-size: 160%;
@@ -567,10 +565,10 @@ footer {
 .ion-social-instagram:hover {
     color: #517fa4;
 }
-
+*/
 
 footer p {
-    color:black;
+    color:white;
     text-align: center;
     margin-top: 20px;
 }
