@@ -160,7 +160,7 @@ input[type=submit]:active {
 /* HEADER */
 
 header {
-    /*background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/firstOption.jpg);*/
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/MainHeader.png);
     /*background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/firstOption.jpg);*/
     background-image: url(img/MainHeader.png);/*source Adobe Stock*/
     background-size: cover;
