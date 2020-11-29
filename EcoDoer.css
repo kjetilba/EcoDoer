@@ -441,6 +441,7 @@ header {
 #contactPage {
     display: flex;
     flex-direction: row;
+    line-height: 1.5;
     align-items: center;
     padding: 1% 6% 5% 6%;
     margin: auto;
