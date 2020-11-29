@@ -199,7 +199,6 @@ header {
 }
 
 .logo {
-    padding-top: 1%;
     height: 70px;
     width: 240px;
     float: left;
@@ -211,37 +210,66 @@ header {
         height: 65px;
         width: 200px;
         float: left;
-        margin-right: 3vh;
-        padding-top: 3%;
+        padding-top: 0%;
+    }
+    .meni{
+        padding-top: 4%;
+        font-size: 50%;
     }
 }
 
-@media only screen and (max-width: 867px) {
+@media only screen and (max-width: 860px) {
     .logo {
-        height: 55px;
-        width: 150px;
-        float: left;
+        margin-top: 0%;
+        height: 45px;
+        width: 175px;
+        float: right;
         margin-right: 1vh;
     }
 }
 
 @media only screen and (max-width: 780px) {
     .logo {
-        height: 55px;
-        width: 150px;
+        height: 45px;
+        width: 175px;
         float: right;
         margin-right: 1vh;
     }
+
+} .maintext{
+      left: 10%;!important;
+  }
+
+@media only screen and (max-width: 680px) {
+    .logo {
+        margin-top: 0%;
+        height: 40px;
+        width: 160px;
+        float: right;
+        margin-right: 1vh;
+    }
+    .meni{
+        padding-top: 6%;
+    }
+    .maintext{
+        left: 50%;!important;
+        right: 50%;!important;
+        transform: translate(-20%, -30%);
+    }
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 480px) {
     .logo {
         height: 40px;
         width: 150px;
         float: right;
-        margin-right: 5vh;
+        margin-right: 0vh;
+    }
+    .maintext{
+        left: 2%;
     }
 }
+
 
 .logo-black {
     display: none;
@@ -266,13 +294,10 @@ header {
 }
 
 .meni {
+    padding-top: 2%;
     font-weight: bold;
-    padding-top: 25px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 30px;
     color: black;
-    font-size: 140%;
+    font-size: 120%;
 }
 
 .maintext {
@@ -280,8 +305,7 @@ header {
     top: 35%;
     left: 40%;
     right: 5%;
-    font-size: 300%;
-    font-weight: bold;
+    font :italic bolder 320%/130% Georgia, serif;
 }
 
 #logo {
