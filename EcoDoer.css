@@ -44,7 +44,7 @@ h2,
 h3 {
     font-weight: 300;
     text-transform: uppercase;
-    padding: 5 px;
+    padding: 5px;
 }
 
 h1 {
@@ -164,12 +164,12 @@ header {
     /*background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/MainHeader.png);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/MainHeader.png);*/
     background-image: url(img/MainHeader.jpg); /*Source: Adobe Stock "https://stock.adobe.com/no/images/close-up-of-nature-view-green-leaf-on-blurred-greenery-background-under-sunlight-with-bokeh-and-copy-space-using-as-background-natural-plants-landscape-ecology-wallpaper-or-cover-concept/291533500?prev_url=detail" */
-    background-position:center; 
-    background-attachment:scroll; 
-    -o-background-size:cover; 
-    -moz-background-size:cover; 
-    -webkit-background-size:cover; 
-    background-size:cover; 
+    background-position:center;
+    background-attachment:scroll;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+    background-size:cover;
     background-repeat:no-repeat;
     height: 95vh;
 }
@@ -210,12 +210,12 @@ header {
     }
 }
 @media only screen and (max-width: 380px) {
-.logo {
-    height: 40px;
-    width: 150px;
-    float: right;
-    margin-right: 5vh;
-}
+    .logo {
+        height: 40px;
+        width: 150px;
+        float: right;
+        margin-right: 5vh;
+    }
 }
 
 .logo-black {
@@ -315,8 +315,8 @@ header {
 }
 
 #login {
-    width: 200px;
-    height: 400px;
+    width: 240px;
+    height: 460px;
     margin-right: 20px;
 }
 
@@ -341,8 +341,8 @@ header {
 }
 
 .appImg {
-    width: 200px;
-    height: 450px;
+    width: 220px;
+    height: 470px;
 }
 
 .section-steps {
@@ -369,28 +369,6 @@ header {
     width: 40%;
 }
 
-.donate-step {
-    margin-bottom: 50px;
-}
-
-.donate-step:last-of-type {
-    margin-bottom: 80px;
-}
-
-.donate-step div {
-    color: #e67e22;
-    font-size: 150%;
-    height: 54px;
-    width: 54px;
-    border: 2px solid #e67e22;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    margin-right: 25px;
-    float: left;
-    padding: 5px;
-}
-
 .btn-app:link,
 .btn-app:visited {
     border: 0;
@@ -412,67 +390,6 @@ header {
     max-width: 100%;
     max-height: 100%;
 }
-
-/*-----------------------------------------------REVIEWS -------------------------------------------------------
-
-.box img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 15px;
-}
-
-.partners-feature {
-    margin-bottom: 5px;
-}
-
-.useful_links h3{
-    color: rgb(150, 50, 50);
-    font-size: 24px;
-}
-
-
-
-.section-testimonials {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)););
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
-    background-size: cover;
-    color: #fff;
-    background-attachment: fixed;
-}
-
-blockquote {
-    padding: 2%;
-    font-style: italic;
-    line-height: 145%;
-    position: relative;
-    margin-top: 40px;
-}
-
-blockquote:before {
-    content: "\201C";
-    font-size: 500%;
-    display: block;
-    position: absolute;
-    top: -5px;
-    left: -5px;
-}
-
-cite {
-    font-size: 90%;
-    margin-top: 25px;
-    display: block;
-}
-
-cite img {
-    height: 45px;
-    border-radius: 50%;
-    margin-right: 10px;
-    vertical-align: middle;
-}
-
-
-*/
-
 
 /* --------------------------------------CONTACT US----------------------------------------------------------------- */
 .contact-form {
@@ -521,26 +438,17 @@ footer {
 }
 
 
-.social-links {
-    list-style: none;
-    float: right;
-}
-
-.footer-nav li,
-.social-links li {
+.footer-nav li {
     display: inline-block;
     margin-right: 20px;
 }
 
-.footer-nav li:last-child,
-.social-links li:last-child {
+.footer-nav li:last-child {
     margin-right: 0;
 }
 
 .footer-nav li a:link,
-.footer-nav li a:visited,
-.social-links li a:link,
-.social-links li a:visited {
+.footer-nav li a:visited {
     text-decoration: none;
     border: 0;
     color:black;
@@ -552,36 +460,6 @@ footer {
 .footer-nav li a:active {
     color: #ddd;
 }
-/*
-.social-links li a:link,
-.social-links li a:visited {
-    font-size: 160%;
-}
-
-.ion-social-facebook,
-.ion-social-twitter,
-.ion-social-googleplus,
-.ion-social-instagram {
-    -webkit-transition: color 0.2s;
-    transition: color 0.2s;
-}
-
-.ion-social-facebook:hover {
-    color: #3b5998;
-}
-
-.ion-social-twitter:hover {
-    color: #00aced;
-}
-
-.ion-social-googleplus:hover {
-    color: #dd4b39;
-}
-
-.ion-social-instagram:hover {
-    color: #517fa4;
-}
-*/
 
 footer p {
     color:white;
@@ -591,8 +469,8 @@ footer p {
 
 .section {
     clear: both;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -685,16 +563,16 @@ footer p {
     }
 
     #ecodoerRow {
-    width: 90%;
+        width: 90%;
     }
 
     .appImg {
-    width: 180px;
-    height: 410px;
+        width: 180px;
+        height: 400px;
     }
 
-    .row { 
-    padding: 0 2%; 
+    .row {
+        padding: 0 2%;
     }
 }
 
@@ -722,15 +600,15 @@ footer p {
         margin-left: 0%;
     }
 
-    .contact-form { 
-        width: 80%; 
+    .contact-form {
+        width: 80%;
     }
-    
+
     .appImg {
         width: 170px;
         height: 390px;
     }
-    
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -821,22 +699,22 @@ footer p {
 
     .small label{
         width:20% !important;
-        }
-        
-        #ecodoerDesc {
-            font-size: 13px;
-        }
-    
-        .appImg {
-            width: 180px;
-            height: 380px;
-        }
-    
-        #login {
-            width: 190px;
-            height: 360px;
-        }
-        
+    }
+
+    #ecodoerDesc {
+        font-size: 13px;
+    }
+
+    .appImg {
+        width: 180px;
+        height: 380px;
+    }
+
+    #login {
+        width: 190px;
+        height: 360px;
+    }
+
 }
 
 @media (max-width: 952px) {
