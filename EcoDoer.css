@@ -239,6 +239,23 @@ header {
     z-index: 1;
 
 }
+.meni{
+    font-weight: bold;
+    padding-top: 25px ;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 30px;
+    color: black;
+    font-size: 140%;
+}
+.maintext{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    right: 5%;
+    font-size: 300%;
+    font-weight: bold;
+}
 
 #logo{
     float: left;
