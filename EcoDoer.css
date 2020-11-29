@@ -67,23 +67,21 @@ h1
     word-spacing: 4px;
     letter-spacing: 1px;
 }
-
 .author {
     padding-left: 30%;
     color: white;
 }
-
 .company_name {
     padding-left: 75%;
 } */
 
 h2 {
-   /* margin-top: 3%;
-    font-size: 180%;
-    word-spacing: 2px;
-    text-align: center;
-    margin-bottom: 30px;
-    letter-spacing: 1px;*/
+    /* margin-top: 3%;
+     font-size: 180%;
+     word-spacing: 2px;
+     text-align: center;
+     margin-bottom: 30px;
+     letter-spacing: 1px;*/
 }
 
 h3 {
@@ -467,7 +465,7 @@ header {
 }
 
 #about2{
-  padding: 1% 5% 0% 5%;
+    padding: 1% 5% 0% 5%;
 }
 
 /* --------------------------------------CONTACT US----------------------------------------------------------------- */
@@ -479,7 +477,7 @@ header {
     align-items: center;
     padding: 1% 6% 5% 6%;
     margin: auto;
-  }
+}
 
 /* ----------------------------------------------FOOTER ------------------------------------------------*/
 
@@ -720,6 +718,10 @@ footer p {
         margin-bottom: 20px;
     }
 
+    .maintext {
+        font-size: 50px;
+    }
+
 
 }
 
@@ -731,6 +733,10 @@ footer p {
 
     section {
         padding: 30px 0;
+    }
+
+    .maintext {
+        font-size: 44px;
     }
 
     .row,
@@ -826,6 +832,10 @@ footer p {
         padding: 25px 0;
     }
 
+    .maintext {
+        font-size: 40px;
+    }
+
     .contact-form {
         width: 100%;
     }
@@ -863,4 +873,5 @@ footer p {
         padding: 10px 0;
         font-size: 80%;
     }
+
 }
