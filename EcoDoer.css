@@ -767,7 +767,10 @@ footer p {
         display: block;
         border: 0;
         padding: 10px 0;
-        font-size: 90%;
+        font-size: 80%;
+    }
+    .meni{
+        padding-top: 6%;
     }
 
     .sticky .main-nav {
@@ -854,13 +857,16 @@ footer p {
     .first-page-box { /*It would not show <section> with Confucious on mobile phone. To ban it for mobile phones*/
         display: none;
     }
+    .meni{
+        padding-top: 2%;
+    }
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 380px) {
     .main-nav li a:link,
     .main-nav li a:visited {
 
         padding: 10px 0;
-        font-size: 80%;
+        font-size: 60%;
     }
 }
