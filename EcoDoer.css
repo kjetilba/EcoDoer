@@ -59,35 +59,6 @@ h1
     margin-bottom: 30px;
     letter-spacing: 1px;
 }
-/* {
-    margin-top: 0;
-    margin-bottom: 20px;
-    color: black;
-    font-size: 150%;
-    word-spacing: 4px;
-    letter-spacing: 1px;
-}
-.author {
-    padding-left: 30%;
-    color: white;
-}
-.company_name {
-    padding-left: 75%;
-} */
-
-h2 {
-    /* margin-top: 3%;
-     font-size: 180%;
-     word-spacing: 2px;
-     text-align: center;
-     margin-bottom: 30px;
-     letter-spacing: 1px;*/
-}
-
-h3 {
-    font-size: 110%;
-    margin-bottom: 15px;
-}
 
 h1:after {
     display: block;
@@ -172,8 +143,6 @@ input[type=submit]:active {
 /* HEADER */
 
 header {
-    /*background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/MainHeader.png);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/MainHeader.png);*/
     background-image: url(img/MainHeader.jpg); /*Source: Adobe Stock "https://stock.adobe.com/no/images/close-up-of-nature-view-green-leaf-on-blurred-greenery-background-under-sunlight-with-bokeh-and-copy-space-using-as-background-natural-plants-landscape-ecology-wallpaper-or-cover-concept/291533500?prev_url=detail" */
     background-position: center;
     background-attachment: scroll;
@@ -183,17 +152,6 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     height: 95vh;
-}
-
-
-.first-page-box {
-    position: absolute;
-    width: 1140px;
-    top: 70%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
 }
 
 .logo {
@@ -487,47 +445,14 @@ footer {
     font-size: 80%;
 }
 
-.footer-nav {
-    list-style: none;
-    float: left;
-}
-
-.contact_info ul {
-    list-style-type: none;
-    padding-left: 5px;
-    /*font-size: 80%;*/
-    float: right;
-}
-
-
-.footer-nav li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-.footer-nav li:last-child {
-    margin-right: 0;
-}
-
-.footer-nav li a:link,
-.footer-nav li a:visited {
-    text-decoration: none;
-    border: 0;
-    color: black;
-    -webkit-transition: color 0.2s;
-    transition: color 0.2s;
-}
-
-.footer-nav li a:hover,
-.footer-nav li a:active {
-    color: #ddd;
-}
 
 footer p {
     color: white;
     text-align: center;
     margin-top: 20px;
 }
+
+/*=============================== GRID source: "http://www.responsivegridsystem.com/"====================================*/
 
 .section {
     clear: both;
@@ -551,7 +476,6 @@ footer p {
     clear: both;
 }
 
-/*=============================== GRID http://www.responsivegridsystem.com/====================================*/
 /*  GRID COLUMN SETUP */
 
 .col {
@@ -595,7 +519,7 @@ footer p {
     }
 }
 
-/*  GRID OF THREE  = */
+/*  GRID OF THREE   
 .span-3-of-3 {
     width: 100%;
 }
@@ -607,7 +531,7 @@ footer p {
 .span-1-of-3 {
     width: 32.26%;
 }
-
+*/
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 @media only screen and (max-width: 480px) {
