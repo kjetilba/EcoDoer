@@ -459,6 +459,34 @@ footer p {
     margin-top: 20px;
 }
 
+a.contact:link {
+  background-color: rgb(68, 89, 62);
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.contact:visited {
+  background-color: rgb(68, 89, 62);
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.contact:hover {
+  background-color: rgb(68, 89, 62);
+  
+}
+
+
+a.contact:active {
+  background-color: rgb(68, 89, 62);
+}
+
 /*=============================== GRID source: "http://www.responsivegridsystem.com/"====================================*/
 
 .section {
