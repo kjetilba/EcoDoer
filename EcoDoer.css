@@ -241,10 +241,11 @@ header {
     color: black;
     overflow: hidden;
     position: fixed;
-    background-color: rgb(217, 196, 184);
+    background-color: #F3EDE9;
     padding: 1%;
     top: 0;
     z-index: 1;
+    box-shadow: 5px 5px 20px rgba(118,113,113,0.7);
 
 }
 
