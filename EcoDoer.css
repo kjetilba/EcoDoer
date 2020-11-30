@@ -29,7 +29,6 @@ body {
 
 
 .row {
-    /*max-width: 1140px;*/
     margin: 0 auto; /* for centering the row: top/button = auto, left/right = 0 */
 }
 
@@ -519,21 +518,8 @@ footer p {
     }
 }
 
-/*  GRID OF THREE   
-.span-3-of-3 {
-    width: 100%;
-}
 
-.span-2-of-3 {
-    width: 66.13%;
-}
-
-.span-1-of-3 {
-    width: 32.26%;
-}
-*/
-
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS 
 @media only screen and (max-width: 480px) {
     .span-3-of-3 {
         width: 100%;
@@ -547,7 +533,7 @@ footer p {
         width: 100%;
     }
 }
-
+*/
 /*======================================RESPONSIVE enquiary =======================================================================>
 /* Big tablet to 1200px (widths smaller taht the 1140px row) */
 @media only screen and (max-width: 1200px) {
@@ -723,11 +709,11 @@ footer p {
     h1 {
         font-size: 180%;
     }
-
+/*
     h2 {
         font-size: 150%;
     }
-
+*/
     .app-screen {
         width: 40%;
     }
@@ -788,9 +774,6 @@ footer p {
 }
 
 @media (max-width: 952px) {
-    .first-page-box { /*It would not show <section> with Confucious on mobile phone. To ban it for mobile phones*/
-        display: none;
-    }
     .meni{
         padding-top: 2%;
     }
