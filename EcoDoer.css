@@ -176,8 +176,8 @@ header {
 @media only screen and (max-width: 860px) {
     .logo {
         margin-top: 0%;
-        height: 45px;
-        width: 215px;
+        height: 80%;
+        width: 80%;
         float: right;
         margin-right: 1vh;
     }
@@ -185,8 +185,8 @@ header {
 
 @media only screen and (max-width: 780px) {
     .logo {
-        height: 25px;
-        width: 195px;
+        height: 75%;
+        width: 75%;
         float: right;
         margin-right: 1vh;
     }
@@ -199,8 +199,8 @@ header {
 @media only screen and (max-width: 680px) {
     .logo {
         margin-top: 0%;
-        height: 25px;
-        width: 180px;
+        height: 60%;
+        width: 60%;
         float: right;
         margin-right: 1vh;
     }
@@ -216,8 +216,8 @@ header {
 
 @media only screen and (max-width: 480px) {
     .logo {
-        height: 25px;
-        width: 150px;
+        height: 50%;
+        width: 50%;
         float: right;
         margin-right: 0vh;
     }
