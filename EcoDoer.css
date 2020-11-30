@@ -192,6 +192,7 @@ header {
     }
 
 } .maintext{
+      top: 30%;
       left: 10%;!important;
   }
 
@@ -258,10 +259,10 @@ header {
 
 .maintext {
     position: absolute;
-    top: 35%;
+    top: 30%;
     left: 40%;
     right: 5%;
-    font :italic bolder 320%/130% Georgia, serif;
+    font :italic bolder 220%/110% Georgia, serif;
 }
 
 #logo {
@@ -280,7 +281,7 @@ header {
     padding: 8px 0;
     color: #fff;
     text-decoration: none;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-size: 90%;
     border-bottom: 2px solid transparent;
     -webkit-transition: border-bottom 0.2s;
@@ -630,7 +631,7 @@ footer p {
     }
 
     .maintext {
-        font-size: 50px;
+        font-size: 45px;
     }
 
 
