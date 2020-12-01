@@ -445,29 +445,29 @@ header {
 }
 
 a.contact:link {
-  background-color: rgb(68, 89, 62);
-  color: white;
-  padding: 3px 4px;
-  text-align: center;
-  text-decoration: none;
+    background-color: rgb(68, 89, 62);
+    color: white;
+    padding: 3px 4px;
+    text-align: center;
+    text-decoration: none;
 }
 
 a.contact:visited {
-  background-color: rgb(68, 89, 62);
-  color: white;
-  padding: 3px 4px;
-  text-align: center;
-  text-decoration: none;
+    background-color: rgb(68, 89, 62);
+    color: white;
+    padding: 3px 4px;
+    text-align: center;
+    text-decoration: none;
 }
 
 a.contact:hover {
-  background-color: rgb(68, 89, 62);
-  box-shadow: 5px 5px 20px rgba(118,113,113,0.7);
+    background-color: rgb(68, 89, 62);
+    box-shadow: 5px 5px 20px rgba(118,113,113,0.7);
 }
 
 
 a.contact:active {
-  background-color: rgb(68, 89, 62);
+    background-color: rgb(68, 89, 62);
 }
 
 
@@ -597,7 +597,7 @@ footer p {
         margin-right: 5px;
     }
 
-    
+
     .plan-box {
         width: 100%;
         margin-left: 0%;
@@ -661,7 +661,7 @@ footer p {
         margin: 0 0 4% 0;
     }
 
-    
+
     .nav-overlaied {
         display: block;
     }
@@ -685,7 +685,8 @@ footer p {
         padding: 10px 0;
         font-size: 80%;
     }
-    .meni{
+
+    .meni {
         padding-top: 6%;
     }
 
@@ -710,9 +711,9 @@ footer p {
         font-size: 180%;
         margin-top: 12%;
     }
-    
+
     .maintext {
-      font-size: 25px;
+        font-size: 25px;
     }
 
     .app-screen {
@@ -723,92 +724,95 @@ footer p {
         text-align: center;
     }
 
-/* Small phones: from 0 to 480px */
-@media only screen and (max-width: 480px) {
-    section {
-        padding: 25px 0;
+    /* Small phones: from 0 to 480px */
+    @media only screen and (max-width: 480px) {
+        section {
+            padding: 25px 0;
+        }
+
+        .maintext {
+            font-size: 30px;
+        }
+
+        .small label {
+            width: 20% !important;
+        }
+
+        #ecodoerDesc {
+            font-size: 13px;
+        }
+
+        .appImg {
+            width: 180px;
+            height: 380px;
+        }
+
+        #login {
+            width: 190px;
+            height: 360px;
+        }
+
     }
 
-    .maintext {
-        font-size: 30px;
+    @media (max-width: 952px) {
+        .meni {
+            padding-top: 2%;
+        }
     }
 
-    .small label {
-        width: 20% !important;
+    /* larger smartphones like iPhone 8 plus */
+    @media only screen and (max-width: 420px) {
+        .main-nav li a:link,
+        .main-nav li a:visited {
+
+            padding: 10px 0;
+            font-size: 60%;
+        }
+
+        h1 {
+            margin-top: 32%;
+        }
+
+        .maintext {
+            font-size: 22px;
+        }
+
     }
 
-    #ecodoerDesc {
-        font-size: 13px;
-    }
+    /* smaller smartphones like iPhone 8 */
+    @media only screen and (max-width: 380px) {
+        .main-nav li a:link,
+        .main-nav li a:visited {
 
-    .appImg {
-        width: 180px;
-        height: 380px;
-    }
+            padding: 10px 0;
+            font-size: 60%;
+        }
 
-    #login {
-        width: 190px;
-        height: 360px;
-    }
+        h1 {
+            margin-top: 30%;
+        }
 
+        .maintext {
+            font-size: 22px;
+        }
+
+    }
+    /* smaller smartphones like iPhone 5 */
+    @media only screen and (max-width: 340px) {
+        .main-nav li a:link,
+        .main-nav li a:visited {
+
+            padding: 10px 0;
+            font-size: 60%;
+        }
+
+        h1 {
+            margin-top: 32%;
+        }
+
+        .maintext {
+            font-size: 22px;
+        }
+
+    }
 }
-
-@media (max-width: 952px) {
-    .meni{
-        padding-top: 2%;
-    }
-}
-
-/* larger smartphones like iPhone 8 plus */
-@media only screen and (max-width: 420px) {
-  .main-nav li a:link,
-  .main-nav li a:visited {
-
-      padding: 10px 0;
-      font-size: 60%;
-  }
-  
-  h1 {
-      margin-top: 32%;
-  }
-  
-  .maintext {
-    font-size: 22px;
-}
-
-/* smaller smartphones like iPhone 8 */
-@media only screen and (max-width: 380px) {
-    .main-nav li a:link,
-    .main-nav li a:visited {
-
-        padding: 10px 0;
-        font-size: 60%;
-    }
-    
-    h1 {
-        margin-top: 30%;
-    }
-    
-    .maintext {
-      font-size: 22px;
-  }
-
-}/* smaller smartphones like iPhone 5 */
-@media only screen and (max-width: 340px) {
-  .main-nav li a:link,
-  .main-nav li a:visited {
-
-      padding: 10px 0;
-      font-size: 60%;
-  }
-  
-  h1 {
-      margin-top: 32%;
-  }
-  
-  .maintext {
-    font-size: 22px;
-}
-
-}
-
