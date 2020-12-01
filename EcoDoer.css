@@ -649,9 +649,10 @@ footer p {
         padding: 30px 0;
     }
 
-    .maintext {
-        font-size: 44px;
-    }
+   .maintext {
+       font-size: 37px;
+       width: 60%;
+   }
 
     .row,
     .first-page-box {
@@ -714,10 +715,6 @@ footer p {
         margin-top: 12%;
     }
 
-    .maintext {
-        font-size: 25px;
-    }
-
     .app-screen {
         width: 40%;
     }
@@ -776,7 +773,8 @@ footer p {
         }
 
         .maintext {
-            font-size: 22px;
+            font-size: 30px;
+            width: 70%;
         }
 
     }
@@ -795,7 +793,7 @@ footer p {
         }
 
         .maintext {
-            font-size: 22px;
+            font-size: 28px;
         }
 
     }
@@ -813,7 +811,7 @@ footer p {
         }
 
         .maintext {
-            font-size: 22px;
+            font-size: 26px;
         }
 
     }
