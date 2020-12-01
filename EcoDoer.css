@@ -452,6 +452,11 @@ p {
     margin: auto;
 }
 
+#contactText {
+    margin: auto;
+}
+
+
 a.contact:link {
   color: black;
   padding: 3px 4px;
