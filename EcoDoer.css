@@ -447,29 +447,29 @@ header {
 }
 
 a.contact:link {
-    background-color: rgb(68, 89, 62);
-    color: white;
-    padding: 3px 4px;
-    text-align: center;
-    text-decoration: none;
+  color: black;
+  padding: 3px 4px;
+  text-align: center;
+  text-decoration: none;
 }
 
 a.contact:visited {
-    background-color: rgb(68, 89, 62);
-    color: white;
-    padding: 3px 4px;
-    text-align: center;
-    text-decoration: none;
+  color: black;
+  padding: 3px 4px;
+  text-align: center;
+  text-decoration: none;
 }
 
 a.contact:hover {
-    background-color: rgb(68, 89, 62);
-    box-shadow: 5px 5px 20px rgba(118,113,113,0.7);
+  background-color: rgb(68, 89, 62);
+  color: white;
+  box-shadow: 5px 5px 20px rgba(118,113,113,0.7);
 }
 
 
 a.contact:active {
-    background-color: rgb(68, 89, 62);
+  background-color: rgb(68, 89, 62);
+  color: white;
 }
 
 
