@@ -343,6 +343,12 @@ header {
 
 /* -----------------------------------------The challenge-------------------------------------------------------*/
 
+p {
+  line-height: 1.5;
+  margin: auto;
+  margin-left: 5%;
+  max-width: 80ch; 
+}
 
 #earth {
     width: auto;
