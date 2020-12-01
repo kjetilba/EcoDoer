@@ -489,12 +489,12 @@ a.contact:active {
 footer {
     background-color: rgb(68, 89, 62);
     padding: 50px;
+    font-size: 80%;
 }
 
 
 #footertext {
     color: white;
-    font-size: 80%;
     text-align: center;
     margin-top: 20px;
     line-height: 1.5;
