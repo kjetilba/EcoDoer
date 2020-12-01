@@ -484,14 +484,15 @@ a.contact:active {
 footer {
     background-color: rgb(68, 89, 62);
     padding: 50px;
-    font-size: 80%;
 }
 
 
-footer p {
+#footertext {
     color: white;
     text-align: center;
     margin-top: 20px;
+    line-height: 1.5;
+    margin: auto;
 }
 
 
